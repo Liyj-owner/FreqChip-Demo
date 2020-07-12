@@ -1,0 +1,3 @@
+---- UART0_IRQn Matches (2 in 2 files) ----
+IRQn in driver_plf.h (components\driver\include) :     UART0_IRQn                    = 3,
+user_entry_after_sleep_imp in proj_main.c (ble_simple_peripheral\code) :         NVIC_EnableIRQ(UART0_IRQn);
